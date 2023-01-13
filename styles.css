@@ -37,8 +37,8 @@ body {
       list-style-type: none;
       margin: 0 1em;
     }
-
-    li {
+    
+    .no-bullets {
       list-style-type: none;
     }
     
@@ -57,5 +57,23 @@ body {
     
     #about h2, #experience h2, #education h2, #skills h2, #contact h2 {
       margin-top: 0;
+      color: #2079c7;
+    }
+    
+    .container {
+      display: flex;
+    }
+    
+    .column {
+      flex: 1; /* This will make the columns take up equal amount of space */
+    }
+    
+    .left {
+      flex: 2;
+      background-color: rgb(255, 255, 255);
+    }
+    
+    .right {
+      background-color: rgb(221, 221, 221);
     }
     
