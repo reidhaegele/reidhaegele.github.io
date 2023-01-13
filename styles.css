@@ -37,6 +37,10 @@ body {
       list-style-type: none;
       margin: 0 1em;
     }
+
+    li {
+      list-style-type: none;
+    }
     
     header nav a {
       color: white;
