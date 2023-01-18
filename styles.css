@@ -1,7 +1,7 @@
 /* styles.css */
 
 body {
-      font-family: Arial, sans-serif;
+      font-family: 'Times New Roman', Times, serif;
       margin: 0;
       padding: 0;
     }
@@ -42,6 +42,19 @@ body {
       list-style-type: none;
     }
     
+    #bullets {
+      list-style-type: disc;
+      font-size: 1.25em;
+    }
+    
+    #title {
+      font-size: 1.4em !important;
+    }
+
+    #date {
+      font-size: 1em;
+    }
+
     header nav a {
       color: white;
       text-decoration: none;
@@ -53,24 +66,32 @@ body {
     
     #name {
       margin: 0.75em;
+      margin-bottom: 0;
       color: black;
       font-size: 2.5em;
     }
 
     #about, #experience, #education, #skills, #contact {
       margin: 2em;
+      margin-bottom: 0;
     }
     
     #about h2, #experience h2, #education h2, #skills h2, #contact h2 {
-      margin-top: 0;
+      margin: 0;
       color: #2079c7;
       font-size: 2em;
     }
 
     #about p, #experience p, #education p, #skills p, #contact p, #name p {
       font-size: 1em;
+      margin: 0.25em;
     }
     
+    #no-left-margin {
+      margin: 0;
+      padding-left: 0;
+    }
+
     .container {
       display: flex;
     }
@@ -80,7 +101,7 @@ body {
     }
     
     .left {
-      flex: 2;
+      flex: 1.5;
       background-color: rgb(255, 255, 255);
     }
     
