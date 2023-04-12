@@ -102,7 +102,7 @@ body {
     
     .left {
       flex: 1.5;
-      background-color: rgb(255, 255, 255);
+      background-color: rgba(255, 255, 255, 0.896);
     }
     
     .right {
